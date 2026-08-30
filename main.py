@@ -14,9 +14,9 @@ WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
 VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
-# إعداد نموذج Google Gemini بالاسم المطلوب رسمياً في رسالة الخطأ
+# إعداد نموذج Google Gemini بالاسم الحديث والمعتمد
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.6-flash",
+    model="gemini-3.7-flash",
     google_api_key=GOOGLE_API_KEY,
     temperature=0.3
 )
