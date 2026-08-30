@@ -1,7 +1,7 @@
-fastapi==0.110.0
-uvicorn==0.28.0
-requests==2.31.0
-langchain-google-genai==1.0.1
-langchain-core==0.1.30
-langchain-community==0.0.28
-sqlalchemy==2.0.28
+fastapi
+uvicorn
+requests
+langchain-google-genai
+langchain-core
+langchain-community
+sqlalchemy
